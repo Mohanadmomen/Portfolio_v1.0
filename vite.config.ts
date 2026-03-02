@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // The base path must be inside this return object
-  base: '/gridwalker-backend-showcase/', 
+  base: '/Portfolio_v1.0/', 
   server: {
     host: "::",
     port: 8080,
