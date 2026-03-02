@@ -5,8 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // This base path is critical for GitHub Project Pages
-  base: '/Portfolio_v1.0/', 
+  // The magic fix: This forces Vite to use relative paths for all CSS and JS files
+  base: './', 
+  
   server: {
     host: "::",
     port: 8080,
